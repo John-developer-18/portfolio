@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+:root{
+    --bg-color:black;
+    --text-color:rgb(216, 145, 13);
+    --main-content:rgb(20, 20, 20);
+}
+
+/* The side-bar section */
+body{
+    /* background-color: var(--main-content) !important; */
+    font-family: 'open sans' !important;
+}
+
+
+.sidebar{
+    background-color: var(--bg-color);
+    height: 750px;
+    padding-left:0 !important;
+    padding-right: 0 !important;
+    position: relative;
+}
+.logo{
+    font-family: 'hanken';
+}
+.main-content{
+    background-color:var(--main-content) ;
+}
+.sidenav li{
+    /* border-bottom: 1px solid var(--text-color); */
+    margin-bottom: 20px;
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.sidenav li:hover{
+    border-left:5px solid var(--text-color);
+}
+.sidenav a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.sidenav a:hover{
+    color: var(--text-color);
+}
+.sidenav{
+    background-color: var(--bg-color) !important;
+    margin-top: 100px;
+    padding: 10px 0;
+    color: var(--text-color);
+    text-align: left;
+    width: 100%;
+}
+.icon-font{
+    font-size: 25px !important;
+    /* margin-right: 20px; */
+    transition: 1s ease;
+}
+  .one{
+    margin-right:15px;
+}
+  .two{
+      margin-right: 11px;
+  }
+  .three{
+      margin-right: 11px;
+  }
+  .four{
+      margin-right: 4px;
+  }
+  .five{
+      margin-right: 16px;
+  }
+  .active{
+      border-left: 5px solid var(--text-color) !important;
+  }
+  .name{
+      background-color: var(--text-color);
+      width: 130px;
+      font-weight: 500;
+      margin-bottom: 20px;
+  }
+  .type{
+    font-size: 45px;
+    color: var(--text-color);
+    font-weight: 500;
+  }
+   .about-one{
+      padding-top:180px !important;
+      padding-left: 50px !important;
+  }
+    .about-one p{
+      margin-top: 15px;
+    }
+  .about-two{
+    /* padding-right:px !important;  */
+    padding-top: 5px;
+    /* background-color: purple; */
+    }
+    .about-two img{
+        width: 550px;
+        height: 550px;
+        border-radius: 100%;
+        margin-left: -100px !important;
+    } 
+    .quote{
+        background-color: var(--text-color);
+        padding: 0 5px;
+        margin-right:5px;
+        font-weight: 500px;
+    }
+.about{
+    min-height: 657px;
+    background-image: linear-gradient(var(--main-content), rgb(12, 11, 11));
+}
+.skills{
+    min-height: 657px;
+    /* background-color:var(--text-color) ; */
+    padding-top: 200px;
+    margin-bottom: 200px;
+    background-color: rgb(12, 11, 11);
+    background-image: linear-gradient(rgb(12, 11, 11),var(--main-content));
+}
+.skill h1{
+   background-color: var(--text-color);
+   padding: 50px 10px;
+   border-radius: 5px;
+   margin-bottom: 40px;
+   cursor: pointer;
+}
+.skill-text{
+    text-align: center;
+}
+.project-text{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.css:hover{
+    opacity: 0.5;
+    color: black;
+}
+.html:hover{
+    opacity: 0.5;
+    color: black;
+}
+.js:hover{
+    opacity: 0.5;
+    color: black;
+}
+.skill span{
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--text-color);
+    font-family: 'hanken';
+}
+/* .skill .html, .skill .css, .skill .js{
+    padding-left: 40px !important;
+}  */
+.skill{
+    text-align: center;
+}
+.card{
+    background-color: black !important;
+    color: var(--text-color) !important;
+    padding:10px;
+    border-radius:10px !important;
+}
+.btn{
+    background-color: var(--text-color) !important;
+    border:none !important;
+    color: var(--main-content) !important;
+}
+.project{
+    min-height: 657px; 
+    margin-top: -210px !important;
+    padding-top:100px;
+    padding-bottom: 200px !important;
+    background-image: linear-gradient(var(--main-content), rgb(12, 11, 11));
+    
+}
+.card-text{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+::-webkit-scrollbar-button {
+    height: 5px;
+    padding: 0;
+    margin: 0;
+  }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+ 
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    height:3px;
+    background-color: var(--main-content);
+    padding: 0;
+    margin: 0;
+  } 
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:var(--text-color);
+    height: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+.main-content{
+    margin-left: 16.6666%;
+}
+nav{
+    display:none;
+    height: 50px;
+    width: 100%;
+}
+.card img{
+    height: 150px;
+}
+.card{
+   text-align: justify;
+}
+@media screen and (max-width:1199px){
+    .sidebar{
+        display: none;
+    }
+    .main-content{
+        margin-left: 0;
+    }
+    nav{
+        display: block;
+        background-color: var(--text-color);
+        text-align: center;
+        padding-top: 10px;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:var(--main-content);
+        font-family: 'open sans';
+        font-weight: 500;
+    }
+    nav ul li a:hover{
+        color:brown;
+    }
+    .top{
+        color: brown !important;
+    }
+} 
+
+ @media screen and (max-width:996px){
+   .about{
+       text-align: center !important;
+       padding-bottom: 200px !important;
+   } 
+   .about-one{
+       text-align: center !important;
+   }
+}  
+
+@media screen and (max-width:767px){
+     .skill{
+         width:400px !important;
+         margin: 0 auto;
+     }
+     .about-two img{
+        margin-left: 40px !important;
+    }
+    .card{
+        width: 400px;
+        margin: 0 auto;
+    }
+ }  
+
+ @media screen and (max-width:602px){
+
+    .about-two img{
+       width: 400px;
+       height: 400px;
+   }
+}  
+
+@media screen and (max-width:420px){
+
+   .card{
+       width:350px;
+   }
+   .about-two img{
+    margin-left: 0 !important;
+}
+}
+
+@media screen and (max-width:400px){
+
+    .card{
+        width:300px;
+    }
+    .skill{
+        width: 350px !important;
+    }
+    .about-two img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-height:800px){
+   .about{
+       height: 857px;
+    }
+    .skill-text{
+        margin-bottom: 100px !important;
+      
+    }
+}
+
+

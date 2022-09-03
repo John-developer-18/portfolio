@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+  <!-- Image and text -->
+  <nav>
+    <ul class="navv">
+      <li><a href="#about-me">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 sidebar fixed-top">
+                <!-- <h1 class="logo">Arush</h1> -->
+                <ul class="sidenav">
+                    <li class="abt active"><i class="fa fa-user icon-font one"></i><a href="#about-me">About</a></li>
+                    <li onclick="counterUp()"><i class="fa fa-wrench icon-font two"></i><a href="#skills">Skills</a></li>
+                    <!-- <li><i class="fa fa-briefcase icon-font three"></i><a href="#experience">Experience</a></li>
+                    <li><i class="fa fa-graduation-cap icon-font four"></i><a href="#education">Education</a></li> -->
+                    <li><i class="fa fa-phone icon-font five"></i><a href="#projects">Projects</a></li>
+                </ul>
+            </div> 
+            <div class=" col-lg-12 col-xl-10 main-content">
+              <!--About me section-->
+              <div id="about-me" class="row about animate__animated animate__fadeInDown">
+                  <div class="col-md-12 col-lg-6 col-xl-6 about-one">
+                      <span class="name">My name is John</span>
+                      <h1>I am a,</h1>
+                      <span class="type"></span>
+                      <p> <span class="quote">Quote:</span>If life give you apples you make apple pie</p>
+                  </div>
+                  <div class="col-md-12 col-lg-6 col-xl-6 about-two">
+                    <img src="bored.png" alt="">
+                  </div>
+              </div>
+              
+              <!--Skills and Skill level-->
+              <div id="skills" class="row skills">
+                <h1 class="skill-text">Skills</h1>
+                <div class="col-md-4 col-lg-4 col-xl-4 skill">
+                  <div class="html">
+                    <H1>HTML</H1>
+                    <span class="counter" data-target="999">999</span>
+                  </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-xl-4 skill">
+                    <div class="css">
+                      <h1>CSS</h1>
+                      <span class="counter" data-target="600">600</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-xl-4 skill">
+                    <div class="js">
+                      <H1>JS</H1>
+                      <span class="counter" data-target="400">400</span>
+                    </div>
+                </div>
+             </div>
+
+             <!--Projects-->
+             <div id="projects" class="row project">
+                <h1 class="project-text">Projects</h1>
+                <div class="col-md-4 col-lg-4 col-xl-4 pb-5">
+                  <div class="card">
+                    <img class="card-img-top" src="download.jfif" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Faculty Portfolio App</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="https://github.com/John-developer-18/Department-Portfolio-App" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-xl-4 pb-5">
+                    <div class="card">
+                    <img class="card-img-top" src="jack.jfif" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Black Jack-Game</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="https://github.com/John-developer-18/Black-Jack-Game" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-xl-4 pb-5">
+                    <div class="card">
+                    <img class="card-img-top" src="train.jfif" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Passeger Counter App</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="https://github.com/John-developer-18/Passenger-Counter-App" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+    
+</body>
+   <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="typed.js/lib/typed.js"></script>
+    <script src="js/script.js"></script>
+</html>
